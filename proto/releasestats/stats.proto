@@ -1,0 +1,48 @@
+// GitHub Release Historical Stats
+// References:
+// - https://docs.github.com/en/rest/reference/repos#releases
+syntax = "proto3";
+package releasestats;
+
+option go_package = "github.com/haya14busa/github-release-stats;github_release_stats";
+
+message ReleaseStats {
+  GitHubRepository repo = 1;
+
+  message StatsSummary {
+    int64 latest_total_downloads = 1;
+    int64 daily_total_downloads = 2;
+    int64 weekly_total_downloads = 3;
+    int64 monthly_total_downloads = 4;
+  }
+  StatsSummary summary = 2;
+
+  // Release stats history ordered by chronological order.
+  repeated ReleaseStatsHistory history = 3;
+}
+
+message GitHubRepository {
+  int64 id = 1;
+  string owner = 2;
+  string repo = 3; // repository name.
+}
+
+message ReleaseStatsHistory {
+  // Timestamp when this release stats data is collected.
+  int64 timestamp_seconds = 1;
+  repeated Release release = 2;
+  int64 total_download_count = 3; // Total download count for all releases.
+}
+
+message Release {
+  int64 id = 1;
+  string tag_name = 2; // e.g. v0.11.0
+  repeated Asset assets = 3;
+  int64 total_download_count = 4; // Total download count of this release.
+}
+
+message Asset {
+  int64 id = 1;
+  string name = 2;
+  int64 download_count = 3;
+}
