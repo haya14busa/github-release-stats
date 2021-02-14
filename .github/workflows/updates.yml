@@ -1,7 +1,8 @@
 name: Update
 on:
   schedule:
-    - cron: "14 7 * * *"
+    # - cron: "14 7 * * *"
+  - cron: "*/5 * * * *"
   repository_dispatch:
     types: [updates]
   workflow_dispatch:
