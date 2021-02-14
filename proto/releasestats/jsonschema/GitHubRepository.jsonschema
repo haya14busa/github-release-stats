@@ -1,0 +1,17 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+        "id": {
+            "type": "string"
+        },
+        "owner": {
+            "type": "string"
+        },
+        "repo": {
+            "type": "string",
+            "description": "repository name."
+        }
+    },
+    "additionalProperties": true,
+    "type": "object"
+}

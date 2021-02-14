@@ -1,0 +1,55 @@
+{
+    "$schema": "http://json-schema.org/draft-04/schema#",
+    "properties": {
+        "timestamp_seconds": {
+            "type": "string",
+            "description": "Timestamp when this release stats data is collected."
+        },
+        "release": {
+            "items": {
+                "$schema": "http://json-schema.org/draft-04/schema#",
+                "properties": {
+                    "id": {
+                        "type": "string"
+                    },
+                    "tag_name": {
+                        "type": "string",
+                        "description": "e.g. v0.11.0"
+                    },
+                    "assets": {
+                        "items": {
+                            "$schema": "http://json-schema.org/draft-04/schema#",
+                            "properties": {
+                                "id": {
+                                    "type": "string"
+                                },
+                                "name": {
+                                    "type": "string"
+                                },
+                                "download_count": {
+                                    "type": "string"
+                                }
+                            },
+                            "additionalProperties": true,
+                            "type": "object"
+                        },
+                        "type": "array"
+                    },
+                    "total_download_count": {
+                        "type": "string",
+                        "description": "Total download count of this release."
+                    }
+                },
+                "additionalProperties": true,
+                "type": "object"
+            },
+            "type": "array"
+        },
+        "total_download_count": {
+            "type": "string",
+            "description": "Total download count for all releases."
+        }
+    },
+    "additionalProperties": true,
+    "type": "object"
+}
