@@ -2,6 +2,7 @@ package main
 
 import (
 	"context"
+	"encoding/json"
 	"errors"
 	"flag"
 	"fmt"
@@ -11,6 +12,7 @@ import (
 	"path"
 	"time"
 
+	humanize "github.com/dustin/go-humanize"
 	"github.com/google/go-github/v32/github"
 	statspb "github.com/haya14busa/github-release-stats/proto/releasestats"
 	"golang.org/x/oauth2"
@@ -76,6 +78,9 @@ func run(opt option) error {
 		Multiline: true,
 	}.Marshal(stats)
 	if err := ioutil.WriteFile(statsDataPath(opt), statsb, os.ModePerm); err != nil {
+		return err
+	}
+	if err := writeShieldEndpoints(stats, opt); err != nil {
 		return err
 	}
 	return nil
@@ -240,4 +245,45 @@ func updateSummaryStats(stats *statspb.ReleaseStats) {
 		WeeklyTotalDownloads:  latest.TotalDownloadCount - weeklyStart.TotalDownloadCount,
 		MonthlyTotalDownloads: latest.TotalDownloadCount - monthlyStart.TotalDownloadCount,
 	}
+}
+
+// https://shields.io/endpoint
+type shieldsResponse struct {
+	SchemaVersion int    `json:"schemaVersion,omitempty"`
+	Label         string `json:"label,omitempty"`
+	Message       string `json:"message,omitempty"`
+	Color         string `json:"color,omitempty"`
+	NamedLogo     string `json:"namedLogo,omitempty"`
+}
+
+func writeShieldEndpoints(stats *statspb.ReleaseStats, opt option) error {
+	writeShieldEndpoint(stats.GetSummary().GetLatestTotalDownloads(), "total.json", "", opt)
+	writeShieldEndpoint(stats.GetSummary().GetDailyTotalDownloads(), "daily.json", "/day", opt)
+	writeShieldEndpoint(stats.GetSummary().GetWeeklyTotalDownloads(), "weekly.json", "/week", opt)
+	writeShieldEndpoint(stats.GetSummary().GetMonthlyTotalDownloads(), "monthly.json", "/month", opt)
+	return nil
+}
+
+func writeShieldEndpoint(value int64, fileName string, suffix string, opt option) error {
+	shieldsPath := path.Join(repoDataPath(opt), "shieldsio")
+	if err := os.MkdirAll(shieldsPath, os.ModePerm); err != nil {
+		return err
+	}
+	fpath := path.Join(shieldsPath, fileName)
+	shields := shieldsResponse{
+		SchemaVersion: 1,
+		Label:         "downloads",
+		NamedLogo:     "github",
+		Message:       readableNum(value, 1) + suffix,
+	}
+	b, err := json.Marshal(shields)
+	if err != nil {
+		return err
+	}
+	return ioutil.WriteFile(fpath, b, os.ModePerm)
+}
+
+func readableNum(input int64, decimals int) string {
+	value, prefix := humanize.ComputeSI(float64(input))
+	return humanize.FtoaWithDigits(value, decimals) + prefix
 }
