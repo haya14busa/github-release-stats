@@ -21,7 +21,8 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
       - name: Commit
         run: |
-          git commit -am "Update GitHub Release Stats"
+          git add .
+          git commit -m "Update GitHub Release Stats"
       - name: Push
         run: |
           git push origin
