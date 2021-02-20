@@ -274,6 +274,7 @@ func writeShieldEndpoint(value int64, fileName string, suffix string, opt option
 		SchemaVersion: 1,
 		Label:         "downloads",
 		NamedLogo:     "github",
+		Color:         "brightgreen",
 		Message:       readableNum(value, 1) + suffix,
 	}
 	b, err := json.Marshal(shields)
