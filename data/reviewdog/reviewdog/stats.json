@@ -4,10 +4,10 @@
     "repo":  "reviewdog"
   },
   "summary":  {
-    "latestTotalDownloads":  "5317582",
-    "dailyTotalDownloads":  "8939",
-    "weeklyTotalDownloads":  "86046",
-    "monthlyTotalDownloads":  "372911"
+    "latestTotalDownloads":  "5335748",
+    "dailyTotalDownloads":  "18166",
+    "weeklyTotalDownloads":  "91228",
+    "monthlyTotalDownloads":  "386918"
   },
   "history":  [
     {
@@ -134789,6 +134789,1471 @@
         }
       ],
       "totalDownloadCount":  "5317582"
+    },
+    {
+      "timestampSeconds":  "1620718513",
+      "release":  [
+        {
+          "id":  "33025882",
+          "tagName":  "v0.11.0",
+          "assets":  [
+            {
+              "id":  "27500758",
+              "name":  "checksums.txt",
+              "downloadCount":  "745268"
+            },
+            {
+              "id":  "27500761",
+              "name":  "reviewdog_0.11.0_Darwin_x86_64.tar.gz",
+              "downloadCount":  "4253"
+            },
+            {
+              "id":  "27500759",
+              "name":  "reviewdog_0.11.0_Linux_arm64.tar.gz",
+              "downloadCount":  "61"
+            },
+            {
+              "id":  "27500756",
+              "name":  "reviewdog_0.11.0_Linux_armv6.tar.gz",
+              "downloadCount":  "5"
+            },
+            {
+              "id":  "27500757",
+              "name":  "reviewdog_0.11.0_Linux_i386.tar.gz",
+              "downloadCount":  "5"
+            },
+            {
+              "id":  "27500763",
+              "name":  "reviewdog_0.11.0_Linux_x86_64.tar.gz",
+              "downloadCount":  "731202"
+            },
+            {
+              "id":  "27500760",
+              "name":  "reviewdog_0.11.0_Windows_i386.tar.gz",
+              "downloadCount":  "5"
+            },
+            {
+              "id":  "27500762",
+              "name":  "reviewdog_0.11.0_Windows_x86_64.tar.gz",
+              "downloadCount":  "2027"
+            }
+          ],
+          "totalDownloadCount":  "1482826"
+        },
+        {
+          "id":  "29266587",
+          "tagName":  "v0.10.2",
+          "assets":  [
+            {
+              "id":  "23588947",
+              "name":  "checksums.txt",
+              "downloadCount":  "329007"
+            },
+            {
+              "id":  "23588950",
+              "name":  "reviewdog_0.10.2_Darwin_i386.tar.gz",
+              "downloadCount":  "7"
+            },
+            {
+              "id":  "23588956",
+              "name":  "reviewdog_0.10.2_Darwin_x86_64.tar.gz",
+              "downloadCount":  "4958"
+            },
+            {
+              "id":  "23588949",
+              "name":  "reviewdog_0.10.2_Linux_arm64.tar.gz",
+              "downloadCount":  "71"
+            },
+            {
+              "id":  "23588954",
+              "name":  "reviewdog_0.10.2_Linux_armv6.tar.gz",
+              "downloadCount":  "8"
+            },
+            {
+              "id":  "23588955",
+              "name":  "reviewdog_0.10.2_Linux_i386.tar.gz",
+              "downloadCount":  "7"
+            },
+            {
+              "id":  "23588948",
+              "name":  "reviewdog_0.10.2_Linux_x86_64.tar.gz",
+              "downloadCount":  "332942"
+            },
+            {
+              "id":  "23588952",
+              "name":  "reviewdog_0.10.2_Windows_i386.tar.gz",
+              "downloadCount":  "7"
+            },
+            {
+              "id":  "23588951",
+              "name":  "reviewdog_0.10.2_Windows_x86_64.tar.gz",
+              "downloadCount":  "1383"
+            }
+          ],
+          "totalDownloadCount":  "668390"
+        },
+        {
+          "id":  "28035572",
+          "tagName":  "v0.10.1",
+          "assets":  [
+            {
+              "id":  "22244380",
+              "name":  "checksums.txt",
+              "downloadCount":  "145684"
+            },
+            {
+              "id":  "22244386",
+              "name":  "reviewdog_0.10.1_Darwin_i386.tar.gz",
+              "downloadCount":  "9"
+            },
+            {
+              "id":  "22244383",
+              "name":  "reviewdog_0.10.1_Darwin_x86_64.tar.gz",
+              "downloadCount":  "583"
+            },
+            {
+              "id":  "22244384",
+              "name":  "reviewdog_0.10.1_Linux_arm64.tar.gz",
+              "downloadCount":  "25"
+            },
+            {
+              "id":  "22244382",
+              "name":  "reviewdog_0.10.1_Linux_armv6.tar.gz",
+              "downloadCount":  "8"
+            },
+            {
+              "id":  "22244385",
+              "name":  "reviewdog_0.10.1_Linux_i386.tar.gz",
+              "downloadCount":  "8"
+            },
+            {
+              "id":  "22244378",
+              "name":  "reviewdog_0.10.1_Linux_x86_64.tar.gz",
+              "downloadCount":  "149792"
+            },
+            {
+              "id":  "22244379",
+              "name":  "reviewdog_0.10.1_Windows_i386.tar.gz",
+              "downloadCount":  "8"
+            },
+            {
+              "id":  "22244381",
+              "name":  "reviewdog_0.10.1_Windows_x86_64.tar.gz",
+              "downloadCount":  "179"
+            }
+          ],
+          "totalDownloadCount":  "296296"
+        },
+        {
+          "id":  "26280512",
+          "tagName":  "v0.10.0",
+          "assets":  [
+            {
+              "id":  "20521036",
+              "name":  "checksums.txt",
+              "downloadCount":  "234612"
+            },
+            {
+              "id":  "20521037",
+              "name":  "reviewdog_0.10.0_Darwin_i386.tar.gz",
+              "downloadCount":  "6"
+            },
+            {
+              "id":  "20521038",
+              "name":  "reviewdog_0.10.0_Darwin_x86_64.tar.gz",
+              "downloadCount":  "718"
+            },
+            {
+              "id":  "20521040",
+              "name":  "reviewdog_0.10.0_Linux_arm64.tar.gz",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "20521035",
+              "name":  "reviewdog_0.10.0_Linux_armv6.tar.gz",
+              "downloadCount":  "6"
+            },
+            {
+              "id":  "20521039",
+              "name":  "reviewdog_0.10.0_Linux_i386.tar.gz",
+              "downloadCount":  "6"
+            },
+            {
+              "id":  "20521043",
+              "name":  "reviewdog_0.10.0_Linux_x86_64.tar.gz",
+              "downloadCount":  "243661"
+            },
+            {
+              "id":  "20521041",
+              "name":  "reviewdog_0.10.0_Windows_i386.tar.gz",
+              "downloadCount":  "6"
+            },
+            {
+              "id":  "20521042",
+              "name":  "reviewdog_0.10.0_Windows_x86_64.tar.gz",
+              "downloadCount":  "238"
+            }
+          ],
+          "totalDownloadCount":  "479264"
+        },
+        {
+          "id":  "22870627",
+          "tagName":  "v0.9.17",
+          "assets":  [
+            {
+              "id":  "17366049",
+              "name":  "checksums.txt",
+              "downloadCount":  "312509"
+            },
+            {
+              "id":  "17366051",
+              "name":  "reviewdog_0.9.17_Darwin_i386.tar.gz",
+              "downloadCount":  "9"
+            },
+            {
+              "id":  "17366054",
+              "name":  "reviewdog_0.9.17_Darwin_x86_64.tar.gz",
+              "downloadCount":  "915"
+            },
+            {
+              "id":  "17366052",
+              "name":  "reviewdog_0.9.17_Linux_arm64.tar.gz",
+              "downloadCount":  "42"
+            },
+            {
+              "id":  "17366048",
+              "name":  "reviewdog_0.9.17_Linux_armv6.tar.gz",
+              "downloadCount":  "8"
+            },
+            {
+              "id":  "17366046",
+              "name":  "reviewdog_0.9.17_Linux_i386.tar.gz",
+              "downloadCount":  "8"
+            },
+            {
+              "id":  "17366050",
+              "name":  "reviewdog_0.9.17_Linux_x86_64.tar.gz",
+              "downloadCount":  "348856"
+            },
+            {
+              "id":  "17366047",
+              "name":  "reviewdog_0.9.17_Windows_i386.tar.gz",
+              "downloadCount":  "8"
+            },
+            {
+              "id":  "17366053",
+              "name":  "reviewdog_0.9.17_Windows_x86_64.tar.gz",
+              "downloadCount":  "145"
+            }
+          ],
+          "totalDownloadCount":  "662500"
+        },
+        {
+          "id":  "22748909",
+          "tagName":  "v0.9.16",
+          "assets":  [
+            {
+              "id":  "17260236",
+              "name":  "checksums.txt",
+              "downloadCount":  "12442"
+            },
+            {
+              "id":  "17260237",
+              "name":  "reviewdog_0.9.16_Darwin_i386.tar.gz",
+              "downloadCount":  "10"
+            },
+            {
+              "id":  "17260238",
+              "name":  "reviewdog_0.9.16_Darwin_x86_64.tar.gz",
+              "downloadCount":  "52"
+            },
+            {
+              "id":  "17260242",
+              "name":  "reviewdog_0.9.16_Linux_arm64.tar.gz",
+              "downloadCount":  "22"
+            },
+            {
+              "id":  "17260243",
+              "name":  "reviewdog_0.9.16_Linux_armv6.tar.gz",
+              "downloadCount":  "9"
+            },
+            {
+              "id":  "17260240",
+              "name":  "reviewdog_0.9.16_Linux_i386.tar.gz",
+              "downloadCount":  "9"
+            },
+            {
+              "id":  "17260241",
+              "name":  "reviewdog_0.9.16_Linux_x86_64.tar.gz",
+              "downloadCount":  "12526"
+            },
+            {
+              "id":  "17260239",
+              "name":  "reviewdog_0.9.16_Windows_i386.tar.gz",
+              "downloadCount":  "10"
+            },
+            {
+              "id":  "17260235",
+              "name":  "reviewdog_0.9.16_Windows_x86_64.tar.gz",
+              "downloadCount":  "10"
+            }
+          ],
+          "totalDownloadCount":  "25090"
+        },
+        {
+          "id":  "22606889",
+          "tagName":  "v0.9.15",
+          "assets":  [
+            {
+              "id":  "17157303",
+              "name":  "checksums.txt",
+              "downloadCount":  "142734"
+            },
+            {
+              "id":  "17157306",
+              "name":  "reviewdog_0.9.15_Darwin_i386.tar.gz",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "17157305",
+              "name":  "reviewdog_0.9.15_Darwin_x86_64.tar.gz",
+              "downloadCount":  "97"
+            },
+            {
+              "id":  "17157302",
+              "name":  "reviewdog_0.9.15_Linux_i386.tar.gz",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "17157304",
+              "name":  "reviewdog_0.9.15_Linux_x86_64.tar.gz",
+              "downloadCount":  "142730"
+            }
+          ],
+          "totalDownloadCount":  "285588"
+        },
+        {
+          "id":  "21880416",
+          "tagName":  "v0.9.14",
+          "assets":  [
+            {
+              "id":  "16517760",
+              "name":  "checksums.txt",
+              "downloadCount":  "120903"
+            },
+            {
+              "id":  "16517761",
+              "name":  "reviewdog_0.9.14_Darwin_i386.tar.gz",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "16517762",
+              "name":  "reviewdog_0.9.14_Darwin_x86_64.tar.gz",
+              "downloadCount":  "310"
+            },
+            {
+              "id":  "16517763",
+              "name":  "reviewdog_0.9.14_Linux_i386.tar.gz",
+              "downloadCount":  "9"
+            },
+            {
+              "id":  "16517759",
+              "name":  "reviewdog_0.9.14_Linux_x86_64.tar.gz",
+              "downloadCount":  "121535"
+            }
+          ],
+          "totalDownloadCount":  "242769"
+        },
+        {
+          "id":  "19994991",
+          "tagName":  "v0.9.13",
+          "assets":  [
+            {
+              "id":  "14926368",
+              "name":  "checksums.txt",
+              "downloadCount":  "134285"
+            },
+            {
+              "id":  "14926370",
+              "name":  "reviewdog_0.9.13_Darwin_i386.tar.gz",
+              "downloadCount":  "9"
+            },
+            {
+              "id":  "14926372",
+              "name":  "reviewdog_0.9.13_Darwin_x86_64.tar.gz",
+              "downloadCount":  "382"
+            },
+            {
+              "id":  "14926371",
+              "name":  "reviewdog_0.9.13_Linux_i386.tar.gz",
+              "downloadCount":  "8"
+            },
+            {
+              "id":  "14926369",
+              "name":  "reviewdog_0.9.13_Linux_x86_64.tar.gz",
+              "downloadCount":  "135793"
+            }
+          ],
+          "totalDownloadCount":  "270477"
+        },
+        {
+          "id":  "16719951",
+          "tagName":  "v0.9.12",
+          "assets":  [
+            {
+              "id":  "12029596",
+              "name":  "checksums.txt",
+              "downloadCount":  "81937"
+            },
+            {
+              "id":  "12029593",
+              "name":  "reviewdog_0.9.12_Darwin_i386.tar.gz",
+              "downloadCount":  "10"
+            },
+            {
+              "id":  "12029597",
+              "name":  "reviewdog_0.9.12_Darwin_x86_64.tar.gz",
+              "downloadCount":  "612"
+            },
+            {
+              "id":  "12029594",
+              "name":  "reviewdog_0.9.12_Linux_i386.tar.gz",
+              "downloadCount":  "8"
+            },
+            {
+              "id":  "12029595",
+              "name":  "reviewdog_0.9.12_Linux_x86_64.tar.gz",
+              "downloadCount":  "89705"
+            }
+          ],
+          "totalDownloadCount":  "172272"
+        },
+        {
+          "id":  "12053738",
+          "tagName":  "0.9.11",
+          "assets":  [
+            {
+              "id":  "7973623",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "56"
+            },
+            {
+              "id":  "7973624",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "237"
+            },
+            {
+              "id":  "7973625",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "17"
+            },
+            {
+              "id":  "7973626",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "16"
+            },
+            {
+              "id":  "7973627",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "16"
+            },
+            {
+              "id":  "7973628",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "227"
+            },
+            {
+              "id":  "7973629",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "296037"
+            },
+            {
+              "id":  "7973630",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "403"
+            },
+            {
+              "id":  "7973631",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "16"
+            },
+            {
+              "id":  "7973632",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "20"
+            },
+            {
+              "id":  "7973633",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "7973634",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "7973635",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "17"
+            },
+            {
+              "id":  "7973636",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "16"
+            },
+            {
+              "id":  "7973637",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "1322"
+            },
+            {
+              "id":  "7973622",
+              "name":  "source.zip",
+              "downloadCount":  "24"
+            }
+          ],
+          "totalDownloadCount":  "298450"
+        },
+        {
+          "id":  "11624897",
+          "tagName":  "0.9.10",
+          "assets":  [
+            {
+              "id":  "7648852",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "19"
+            },
+            {
+              "id":  "7648853",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "39"
+            },
+            {
+              "id":  "7648854",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "7648855",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "7648856",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "7648857",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "22"
+            },
+            {
+              "id":  "7648858",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "16502"
+            },
+            {
+              "id":  "7648859",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "7648860",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "7648861",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "15"
+            },
+            {
+              "id":  "7648862",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "7648863",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "7648864",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "15"
+            },
+            {
+              "id":  "7648865",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "18"
+            },
+            {
+              "id":  "7648866",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "23"
+            },
+            {
+              "id":  "7648851",
+              "name":  "source.zip",
+              "downloadCount":  "21"
+            }
+          ],
+          "totalDownloadCount":  "16768"
+        },
+        {
+          "id":  "11318864",
+          "tagName":  "0.9.9",
+          "assets":  [
+            {
+              "id":  "7408633",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "16"
+            },
+            {
+              "id":  "7408634",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "50"
+            },
+            {
+              "id":  "7408635",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "7408636",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "7408637",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "7408638",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "7408639",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "13604"
+            },
+            {
+              "id":  "7408640",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "7408641",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "7408642",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "7408643",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "7408644",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "7408645",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "7408646",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "7408647",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "7408631",
+              "name":  "source.zip",
+              "downloadCount":  "14"
+            }
+          ],
+          "totalDownloadCount":  "13834"
+        },
+        {
+          "id":  "7374401",
+          "tagName":  "0.9.8",
+          "assets":  [
+            {
+              "id":  "4566700",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "23"
+            },
+            {
+              "id":  "4566701",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "98"
+            },
+            {
+              "id":  "4566702",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "4566703",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "17"
+            },
+            {
+              "id":  "4566704",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "4566705",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "991"
+            },
+            {
+              "id":  "4566706",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "333926"
+            },
+            {
+              "id":  "4566707",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "4566708",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "4566709",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "4566710",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "4566711",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "15"
+            },
+            {
+              "id":  "4566712",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "17"
+            },
+            {
+              "id":  "4566713",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "4566714",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "56"
+            },
+            {
+              "id":  "4566699",
+              "name":  "source.zip",
+              "downloadCount":  "14"
+            }
+          ],
+          "totalDownloadCount":  "335247"
+        },
+        {
+          "id":  "7341066",
+          "tagName":  "0.9.7",
+          "assets":  [
+            {
+              "id":  "4541595",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "4541596",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "15"
+            },
+            {
+              "id":  "4541599",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "4541601",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "4541603",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "4541604",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "4541606",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "20419"
+            },
+            {
+              "id":  "4541608",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "4541609",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "4541610",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "4541611",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "4541612",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "4541613",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "4541614",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "4541615",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "4541594",
+              "name":  "source.zip",
+              "downloadCount":  "13"
+            }
+          ],
+          "totalDownloadCount":  "20609"
+        },
+        {
+          "id":  "5613157",
+          "tagName":  "0.9.6",
+          "assets":  [
+            {
+              "id":  "3304450",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "3304451",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "27"
+            },
+            {
+              "id":  "3304452",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "3304453",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "3304454",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "3304455",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "17"
+            },
+            {
+              "id":  "3304456",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "23651"
+            },
+            {
+              "id":  "3304457",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "3304458",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "3304459",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "3304460",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "3304461",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "3304462",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "3304463",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "15"
+            },
+            {
+              "id":  "3304464",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "18"
+            },
+            {
+              "id":  "3304449",
+              "name":  "source.zip",
+              "downloadCount":  "13"
+            }
+          ],
+          "totalDownloadCount":  "23868"
+        },
+        {
+          "id":  "5337532",
+          "tagName":  "0.9.5",
+          "assets":  [
+            {
+              "id":  "3109309",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "15"
+            },
+            {
+              "id":  "3109310",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "17"
+            },
+            {
+              "id":  "3109311",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "3109312",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "3109313",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "3109314",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "3109315",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "1368"
+            },
+            {
+              "id":  "3109316",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "3109317",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "3109318",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "15"
+            },
+            {
+              "id":  "3109319",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "3109320",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "3109321",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "3109322",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "3109323",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "3109308",
+              "name":  "source.zip",
+              "downloadCount":  "16"
+            }
+          ],
+          "totalDownloadCount":  "1563"
+        },
+        {
+          "id":  "4940392",
+          "tagName":  "0.9.4",
+          "assets":  [
+            {
+              "id":  "2838099",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2838100",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "2838101",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "10"
+            },
+            {
+              "id":  "2838102",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "2838103",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "10"
+            },
+            {
+              "id":  "2838104",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2838105",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "150"
+            },
+            {
+              "id":  "2838106",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "10"
+            },
+            {
+              "id":  "2838107",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2838108",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2838109",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "10"
+            },
+            {
+              "id":  "2838110",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "10"
+            },
+            {
+              "id":  "2838113",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2838114",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "16"
+            },
+            {
+              "id":  "2838115",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "2838098",
+              "name":  "source.zip",
+              "downloadCount":  "15"
+            }
+          ],
+          "totalDownloadCount":  "330"
+        },
+        {
+          "id":  "4928950",
+          "tagName":  "0.9.3",
+          "assets":  [
+            {
+              "id":  "2830980",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2830981",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2830982",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "10"
+            },
+            {
+              "id":  "2830983",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2830984",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2830985",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2830986",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "13915"
+            },
+            {
+              "id":  "2830987",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2830988",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2830989",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "2830990",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "10"
+            },
+            {
+              "id":  "2830991",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2830992",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "2830993",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "2830994",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "15"
+            }
+          ],
+          "totalDownloadCount":  "14083"
+        },
+        {
+          "id":  "4532248",
+          "tagName":  "0.9.2",
+          "assets":  [
+            {
+              "id":  "2564602",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2564604",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "15"
+            },
+            {
+              "id":  "2564605",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2564606",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2564607",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "9"
+            },
+            {
+              "id":  "2564608",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "10"
+            },
+            {
+              "id":  "2564609",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "24769"
+            },
+            {
+              "id":  "2564610",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2564611",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "9"
+            },
+            {
+              "id":  "2564612",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2564613",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "9"
+            },
+            {
+              "id":  "2564614",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "9"
+            },
+            {
+              "id":  "2564615",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2564616",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "2564617",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "12"
+            }
+          ],
+          "totalDownloadCount":  "24927"
+        },
+        {
+          "id":  "4517113",
+          "tagName":  "0.9.1",
+          "assets":  [
+            {
+              "id":  "2553117",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2553118",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "2553119",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2553120",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "2553121",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2553122",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2553125",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "67"
+            },
+            {
+              "id":  "2553126",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2553127",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2553128",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "2553129",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2553130",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2553131",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "2553132",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "15"
+            },
+            {
+              "id":  "2553133",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "13"
+            }
+          ],
+          "totalDownloadCount":  "239"
+        },
+        {
+          "id":  "4461561",
+          "tagName":  "0.9.0",
+          "assets":  [
+            {
+              "id":  "2519042",
+              "name":  "reviewdog_darwin_386",
+              "downloadCount":  "13"
+            },
+            {
+              "id":  "2519043",
+              "name":  "reviewdog_darwin_amd64",
+              "downloadCount":  "18"
+            },
+            {
+              "id":  "2519044",
+              "name":  "reviewdog_freebsd_386",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "2519045",
+              "name":  "reviewdog_freebsd_amd64",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "2519046",
+              "name":  "reviewdog_freebsd_arm",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2519047",
+              "name":  "reviewdog_linux_386",
+              "downloadCount":  "139"
+            },
+            {
+              "id":  "2519048",
+              "name":  "reviewdog_linux_amd64",
+              "downloadCount":  "42"
+            },
+            {
+              "id":  "2519049",
+              "name":  "reviewdog_linux_arm",
+              "downloadCount":  "15"
+            },
+            {
+              "id":  "2519050",
+              "name":  "reviewdog_netbsd_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2519051",
+              "name":  "reviewdog_netbsd_amd64",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "2519053",
+              "name":  "reviewdog_netbsd_arm",
+              "downloadCount":  "12"
+            },
+            {
+              "id":  "2519054",
+              "name":  "reviewdog_openbsd_386",
+              "downloadCount":  "11"
+            },
+            {
+              "id":  "2519055",
+              "name":  "reviewdog_openbsd_amd64",
+              "downloadCount":  "15"
+            },
+            {
+              "id":  "2519056",
+              "name":  "reviewdog_windows_386.exe",
+              "downloadCount":  "14"
+            },
+            {
+              "id":  "2519057",
+              "name":  "reviewdog_windows_amd64.exe",
+              "downloadCount":  "15"
+            }
+          ],
+          "totalDownloadCount":  "358"
+        }
+      ],
+      "totalDownloadCount":  "5335748"
     }
   ]
 }
