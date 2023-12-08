@@ -8,7 +8,7 @@ on:
 jobs:
   updates:
     name: Update Release Stats
-    runs-on: ubuntu-18.04
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
       - name: Run ghr-collector (reviewdog/reviewdog)
